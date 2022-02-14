@@ -1,0 +1,98 @@
+body {
+  color: black;
+  font: arial;
+  max-width: none;
+  margin: 0 0;
+  padding: 0 16px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("robot.png");
+}
+
+.main-content{
+  flex-grow: 1;
+}
+
+footer{
+  border-top: 1px dashed black;
+  margin-top: 16px;
+  padding: 7px 0;
+  color: grey;
+}
+
+header{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+h1{
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+footer a{
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.potrait{
+  width: 50px;
+}
+
+.about-content{
+  font: bolder;
+  font-size: 40px;
+  position: relative;
+  top:250px;
+  border: 1px solid black;
+}
+
+
+
+
+.about-content a{
+  color: #4b3bdd;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.error-content a{
+  color: #4b3bdd;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+input{
+  width: 500px;
+  border: 1px Solid #cccccc;
+  padding: 8px;
+  margin-top: 150px;
+}
+
+button{
+  width: 100px;
+  cursor: pointer;
+  border: 1px solid #888888;
+  color: black;
+  padding: 8px;
+}
+
+.world{
+  width: 1000px;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.results{
+  font: caption;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.help{
+  font: bold;
+  font-size: 30px;
+}
